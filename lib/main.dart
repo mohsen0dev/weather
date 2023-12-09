@@ -206,10 +206,8 @@ class _weatherState extends State<weather> {
                                               itemBuilder:
                                                   (BuildContext context,
                                                       int pos) {
-                                                return Center(
-                                                  child: ListViewItems(
-                                                      wModel![pos + 1]),
-                                                );
+                                                return ListViewItems(
+                                                    wModel![pos + 1]);
                                               }),
                                         );
                                       } else {
